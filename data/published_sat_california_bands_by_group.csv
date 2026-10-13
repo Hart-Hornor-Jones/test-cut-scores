@@ -1,0 +1,433 @@
+graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read_from,source_file,source_page
+2018,African American,12871,1000,1190,30,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,African American,12871,1200,1390,9,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,African American,12871,1400,1600,1,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,African American,12871,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,African American,12871,600,790,16,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,African American,12871,800,990,43,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,1000,1190,31,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,1200,1390,9,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,1400,1600,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,400,590,1,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,600,790,17,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,American Indian,1032,800,990,41,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,1000,1190,31,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,1200,1390,31,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,1400,1600,22,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,600,790,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Asian,46615,800,990,14,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,1000,1190,34,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,1200,1390,10,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,1400,1600,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,600,790,12,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Hispanic,122525,800,990,42,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,1000,1190,38,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,1200,1390,14,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,1400,1600,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,600,790,9,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Native Hawaiian,1323,800,990,37,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,1000,1190,34,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,1200,1390,20,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,1400,1600,8,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,600,790,8,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Total,262228,800,990,30,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,1000,1190,36,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,1200,1390,30,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,1400,1600,13,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,600,790,3,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Two or More Races,11415,800,990,18,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,1000,1190,39,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,1200,1390,33,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,1400,1600,11,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,600,790,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,White,59845,800,990,15,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,1000,1190,27,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,1200,1390,8,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,1400,1600,1,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,400,590,1,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,600,790,21,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,African American,13186,800,990,41,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,1000,1190,28,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,1200,1390,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,1400,1600,1,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,400,590,1,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,600,790,26,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,American Indian,899,800,990,34,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,1000,1190,29,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,1200,1390,31,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,1400,1600,24,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,600,790,2,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Asian,46827,800,990,14,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,1000,1190,32,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,1200,1390,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,1400,1600,2,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,600,790,15,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Hispanic,132151,800,990,42,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,1000,1190,35,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,1200,1390,12,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,1400,1600,3,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,600,790,13,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Native Hawaiian,1211,800,990,38,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,1000,1190,33,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,1200,1390,19,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,1400,1600,8,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,600,790,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Total,272892,800,990,30,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,1000,1190,35,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,1200,1390,30,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,1400,1600,14,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,600,790,3,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Two or More Races,12319,800,990,18,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,1000,1190,38,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,1200,1390,33,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,1400,1600,12,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,600,790,2,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,White,59167,800,990,15,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,1000,1190,26,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,1200,1390,8,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,1400,1600,1,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,400,590,1,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,600,790,23,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,African American,13021,800,990,42,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,1000,1190,23,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,1200,1390,7,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,1400,1600,1,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,400,590,2,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,600,790,28,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,American Indian,1018,800,990,39,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,1000,1190,29,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,1200,1390,30,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,1400,1600,23,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,600,790,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Asian,46401,800,990,15,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,1000,1190,30,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,1200,1390,9,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,1400,1600,1,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,600,790,17,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Hispanic,141662,800,990,42,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,1000,1190,32,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,1200,1390,9,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,1400,1600,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,600,790,15,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Native Hawaiian,1204,800,990,41,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,1000,1190,31,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,1200,1390,18,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,1400,1600,8,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,600,790,12,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Total,284631,800,990,31,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,1000,1190,37,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,1200,1390,28,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,1400,1600,12,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,600,790,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Two or More Races,13180,800,990,19,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,1000,1190,38,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,1200,1390,31,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,1400,1600,12,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,600,790,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,White,57591,800,990,16,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2021,African American,4960,1000,1190,19,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,African American,4960,1200,1390,6,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,African American,4960,1400,1600,2,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,African American,4960,400,590,1,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,African American,4960,600,790,32,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,African American,4960,800,990,40,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,1000,1190,17,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,1200,1390,7,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,1400,1600,3,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,400,590,1,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,600,790,35,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,American Indian,569,800,990,38,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,1000,1190,22,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,1200,1390,33,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,1400,1600,32,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,600,790,3,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Asian,24554,800,990,10,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,1000,1190,23,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,1200,1390,7,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,1400,1600,2,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,400,590,1,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,600,790,26,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Hispanic,54030,800,990,43,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,1000,1190,25,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,1200,1390,14,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,1400,1600,4,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,600,790,19,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Native Hawaiian,389,800,990,39,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,1000,1190,24,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,1200,1390,19,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,1400,1600,12,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,600,790,16,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Total,116394,800,990,29,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,1000,1190,29,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,1200,1390,33,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,1400,1600,20,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,600,790,3,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Two or More Races,4870,800,990,14,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,1000,1190,33,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,1200,1390,32,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,1400,1600,16,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,600,790,4,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,White,22079,800,990,15,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2022,African American,4542,1000,1190,25,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,African American,4542,1200,1390,10,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,African American,4542,1400,1600,3,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,African American,4542,400,590,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,African American,4542,600,790,20,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,African American,4542,800,990,41,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,1000,1190,27,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,1200,1390,11,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,1400,1600,6,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,400,590,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,600,790,17,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,American Indian,495,800,990,37,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,1000,1190,21,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,1200,1390,31,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,1400,1600,38,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,600,790,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Asian,22546,800,990,9,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,1000,1190,26,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,1200,1390,10,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,1400,1600,3,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,400,590,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,600,790,19,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Hispanic,38909,800,990,41,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,1000,1190,30,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,1200,1390,17,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,1400,1600,7,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,600,790,12,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Native Hawaiian,339,800,990,34,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,1000,1190,27,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,1200,1390,22,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,1400,1600,16,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,600,790,10,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Total,102028,800,990,25,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,1000,1190,30,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,1200,1390,33,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,1400,1600,23,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,600,790,2,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Two or More Races,5639,800,990,12,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,1000,1190,33,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,1200,1390,34,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,1400,1600,17,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,600,790,2,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,White,25515,800,990,13,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2023,African American,5682,1000,1190,23,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,African American,5682,1200,1390,9,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,African American,5682,1400,1600,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,African American,5682,400,590,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,African American,5682,600,790,28,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,African American,5682,800,990,37,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,1000,1190,19,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,1200,1390,11,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,1400,1600,4,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,400,590,1,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,600,790,32,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,American Indian,424,800,990,33,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,1000,1190,24,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,1200,1390,32,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,1400,1600,33,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,600,790,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Asian,26181,800,990,10,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,1000,1190,24,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,1200,1390,9,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,1400,1600,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,400,590,1,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,600,790,25,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Hispanic,51675,800,990,39,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,1000,1190,26,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,1200,1390,12,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,1400,1600,4,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,600,790,16,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Native Hawaiian,419,800,990,42,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,1000,1190,26,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,1200,1390,21,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,1400,1600,13,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,400,590,1,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,600,790,14,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Total,122914,800,990,25,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,1000,1190,30,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,1200,1390,35,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,1400,1600,21,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,600,790,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Two or More Races,6360,800,990,12,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,1000,1190,34,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,1200,1390,35,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,1400,1600,15,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,600,790,3,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,White,27334,800,990,13,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,1000,1190,22,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,1200,1390,9,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,1400,1600,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,400,590,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,600,790,28,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,African American,5457,800,990,36,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,1000,1190,26,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,1200,1390,10,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,1400,1600,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,400,590,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,600,790,28,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,American Indian,337,800,990,33,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,1000,1190,22,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,1200,1390,32,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,1400,1600,34,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,400,590,0,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,600,790,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Asian,25898,800,990,9,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,1000,1190,24,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,1200,1390,10,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,1400,1600,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,400,590,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,600,790,26,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Hispanic,49637,800,990,37,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,1000,1190,27,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,1200,1390,16,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,1400,1600,7,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,400,590,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,600,790,17,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Native Hawaiian,349,800,990,33,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,1000,1190,26,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,1200,1390,22,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,1400,1600,14,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,400,590,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,600,790,15,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Total,120205,800,990,24,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,1000,1190,29,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,1200,1390,36,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,1400,1600,22,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,400,590,0,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,600,790,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Two or More Races,6204,800,990,11,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,1000,1190,33,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,1200,1390,35,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,1400,1600,17,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,400,590,0,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,600,790,3,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,White,25416,800,990,12,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2025,African American,5442,1000,1190,24,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,African American,5442,1200,1390,10,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,African American,5442,1400,1600,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,African American,5442,400,590,5,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,African American,5442,600,790,23,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,African American,5442,800,990,36,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,1000,1190,25,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,1200,1390,14,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,1400,1600,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,400,590,5,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,600,790,21,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,American Indian,242,800,990,33,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,1000,1190,22,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,1200,1390,35,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,1400,1600,33,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,400,590,0,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,600,790,1,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Asian,27106,800,990,8,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,1000,1190,25,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,1200,1390,11,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,1400,1600,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,400,590,4,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,600,790,21,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Hispanic,51899,800,990,37,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,1000,1190,27,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,1200,1390,17,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,1400,1600,3,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,400,590,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,600,790,18,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Native Hawaiian,339,800,990,32,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,1000,1190,26,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,1200,1390,23,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,1400,1600,14,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,400,590,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,600,790,11,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Total,123259,800,990,23,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,1000,1190,28,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,1200,1390,36,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,1400,1600,21,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,400,590,0,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,600,790,3,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Two or More Races,7191,800,990,13,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,1000,1190,32,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,1200,1390,36,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,1400,1600,17,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,400,590,0,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,600,790,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,White,26297,800,990,12,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2026,African American,5890,1000,1190,25,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,African American,5890,1200,1390,11,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,African American,5890,1400,1600,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,African American,5890,400,590,4,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,African American,5890,600,790,20,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,African American,5890,800,990,37,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,1000,1190,36,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,1200,1390,16,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,1400,1600,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,400,590,6,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,600,790,16,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,American Indian,211,800,990,25,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,1000,1190,23,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,1200,1390,35,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,1400,1600,32,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,400,590,0,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,600,790,1,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Asian,30127,800,990,8,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,1000,1190,27,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,1200,1390,12,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,1400,1600,3,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,400,590,3,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,600,790,18,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Hispanic,56374,800,990,37,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,1000,1190,28,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,1200,1390,18,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,1400,1600,4,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,400,590,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,600,790,14,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Native Hawaiian,368,800,990,34,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,1000,1190,27,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,1200,1390,25,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,1400,1600,14,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,400,590,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,600,790,10,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Total,138763,800,990,23,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,1000,1190,29,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,1200,1390,35,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,1400,1600,20,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,400,590,0,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,600,790,3,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Two or More Races,8232,800,990,13,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,1000,1190,34,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,1200,1390,37,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,1400,1600,15,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,400,590,0,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,600,790,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,White,29652,800,990,13,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6

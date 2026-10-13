@@ -1,0 +1,55 @@
+graduating_class,band_from,band_to,n_test_takers,source_file,source_page
+2017,1400,1600,9331,2017-california-sat-suite-assessments-annual-report.pdf,6
+2017,1200,1390,43687,2017-california-sat-suite-assessments-annual-report.pdf,6
+2017,1000,1190,84347,2017-california-sat-suite-assessments-annual-report.pdf,6
+2017,800,990,72005,2017-california-sat-suite-assessments-annual-report.pdf,6
+2017,600,790,17088,2017-california-sat-suite-assessments-annual-report.pdf,6
+2017,400,590,241,2017-california-sat-suite-assessments-annual-report.pdf,6
+2018,1400,1600,20799,2018-california-sat-suite-assessments-annual-report.pdf,5
+2018,1200,1390,52839,2018-california-sat-suite-assessments-annual-report.pdf,5
+2018,1000,1190,90139,2018-california-sat-suite-assessments-annual-report.pdf,5
+2018,800,990,77516,2018-california-sat-suite-assessments-annual-report.pdf,5
+2018,600,790,20620,2018-california-sat-suite-assessments-annual-report.pdf,5
+2018,400,590,315,2018-california-sat-suite-assessments-annual-report.pdf,5
+2019,1400,1600,22462,2019-california-sat-suite-assessments-annual-report.pdf,5
+2019,1200,1390,52151,2019-california-sat-suite-assessments-annual-report.pdf,5
+2019,1000,1190,88790,2019-california-sat-suite-assessments-annual-report.pdf,5
+2019,800,990,81409,2019-california-sat-suite-assessments-annual-report.pdf,5
+2019,600,790,27507,2019-california-sat-suite-assessments-annual-report.pdf,5
+2019,400,590,573,2019-california-sat-suite-assessments-annual-report.pdf,5
+2020,1400,1600,21768,2020-california-sat-suite-assessments-annual-report.pdf,5
+2020,1200,1390,50509,2020-california-sat-suite-assessments-annual-report.pdf,5
+2020,1000,1190,88115,2020-california-sat-suite-assessments-annual-report.pdf,5
+2020,800,990,88464,2020-california-sat-suite-assessments-annual-report.pdf,5
+2020,600,790,34913,2020-california-sat-suite-assessments-annual-report.pdf,5
+2020,400,590,862,2020-california-sat-suite-assessments-annual-report.pdf,5
+2021,1400,1600,13968,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2021,1200,1390,21564,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2021,1000,1190,28091,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2021,800,990,33335,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2021,600,790,18892,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2021,400,590,544,2021-california-sat-suite-of-assessments-annual-report.pdf,5
+2022,1400,1600,16476,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2022,1200,1390,22804,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2022,1000,1190,27072,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2022,800,990,25244,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2022,600,790,10091,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2022,400,590,341,2022-california-sat-suite-of-assessments-annual-report.pdf,7
+2023,1400,1600,16030,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2023,1200,1390,26246,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2023,1000,1190,32258,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2023,800,990,30388,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2023,600,790,17356,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2023,400,590,636,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,1400,1600,16570,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,1200,1390,26108,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,1000,1190,30701,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,800,990,28559,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,600,790,17571,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2024,400,590,696,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,7
+2025,1400,1600,17652,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
+2025,1200,1390,28719,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
+2025,1000,1190,31798,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
+2025,800,990,28334,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
+2025,600,790,14158,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
+2025,400,590,2598,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,7
