@@ -20,7 +20,9 @@ from multiprocessing import Pool
 from common import (DATA, FLOOR, CUTS, CEILING, TOP_CUTS, RACE_CODES, ECON_CODES, OUTPUT_RACE, OUTPUT_ECON,
                     load_published, load_school, published_row, histogram, prepare_cells, lp_bins)
 
-CELL_SD_TOL = 2.0        # score points of slack on a cluster mean, for bin discretization
+CELL_MEAN_TOL = 15.5     # score points of slack on a cluster mean under 'none': the bins
+                         # below Level 2 are 30 points wide, so a mean near the floor
+                         # cannot be hit more closely
 GROUP_MEAN_EXTRA = 0.5   # same, for the group mean
 GROUP_SD_TOL = 2.0       # METHOD.md: fitted SDs match within about 1.5; +0.5 for the bins
 ROUND = 0.005            # published whole percents, as a fraction
@@ -75,13 +77,13 @@ def clusters_for(cells: pd.DataFrame):
     return agg
 
 
-def shape_feasible(comp, bins, cell_round):
-    """Can this component's level shares and mean be met by a distribution
-    with the bell-shape constraints?  Small cells sometimes cannot (an empty
-    level below an occupied one); they then get no shape constraints."""
+def shape_feasible(comp, bins, cell_round, assumption="bell"):
+    """Can this component's level shares be met together with its extra
+    constraint (the near-normal envelope under 'bell', the published mean
+    under 'none')?  When not, the component keeps only its level shares."""
     B = len(bins)
     L = LPBuilder()
-    add_component(L, lambda k, b: b, 0, comp, bins, "bell", cell_round)
+    add_component(L, lambda k, b: b, 0, comp, bins, assumption, cell_round)
     A = sp.coo_matrix((L.vals, (L.rows, L.cols)), shape=(L.nrows, B)).tocsc()
     lp = highspy.HighsLp()
     lp.num_col_ = B; lp.num_row_ = L.nrows
@@ -175,10 +177,10 @@ def add_component(L, var, k, comp, bins, assumption, cell_round):
     if kind == "cell":
         for lev in range(4):
             L.add({var(k, b): 1.0 for b in range(B) if lvl[b] == lev}, max(p[lev] - cell_round, 0), p[lev] + cell_round)
-        if not (assumption == "bell" and shape):
+        if assumption == "none" and shape:
             # location inside the levels comes from the published cell mean when
             # no shape is assumed; under the envelope it comes from the normal
-            L.add({var(k, b): mid[b] for b in range(B)}, mu - 0.05 - CELL_SD_TOL, mu + 0.05 + CELL_SD_TOL)
+            L.add({var(k, b): mid[b] for b in range(B)}, mu - 0.05 - CELL_MEAN_TOL, mu + 0.05 + CELL_MEAN_TOL)
     if assumption == "bell" and shape and kind == "cell":
         s_lo, s_hi = sd_range(mu, sd, p)
         envelope_rows(L, var, k, mu, s_lo, s_hi, p, bins)
@@ -234,7 +236,7 @@ def build_lp(year, scheme, method, assumption, s, g, h, extra_edges, cell_round)
                 cl = clusters_for(cells)
                 for _, r in cl.iterrows():
                     comp = (code, r.n / n_target, "cell", r.mu, r.sd, np.array([r.p1, r.p2, r.p3, r.p4]), True)
-                    if assumption == "bell" and not shape_feasible(comp, bins, cell_round):
+                    if not shape_feasible(comp, bins, cell_round, assumption):
                         comp = comp[:6] + (False,)
                     comps.append(comp)
             if n_rem > 0:
@@ -352,6 +354,10 @@ def solve_bounds(hs, info, outmap, cut_scores):
 def run_one(args):
     year, scheme, method, assumption, school_csv, quick = args
     t0 = time.time()
+    cached = os.path.join(DATA, "schoolmix_cache", f"bounds_{year}_{scheme}_{method}_{assumption}.csv")
+    if os.path.exists(cached) and not quick:
+        print(f"cached {year} {scheme} {method} {assumption}", flush=True)
+        return pd.read_csv(cached, encoding="utf-8").to_dict("records")
     s = load_school(school_csv)
     g, h = load_published()
     tops = top_cut_scores(year)
@@ -364,8 +370,8 @@ def run_one(args):
     outmap = OUTPUT_RACE if scheme == "race" else OUTPUT_ECON
     res = solve_bounds(hs, info, outmap, cut_scores)
     gtype = "Race/ethnicity" if scheme == "race" else "Economic status"
-    label = {t: f"top{x:g}" for x, (t, _) in tops.items()}
-    label.update({CUTS[0]: "level2", CUTS[1]: "level3", CUTS[2]: "level4", ceiling: "ceiling"})
+    label = {CUTS[0]: "level2", CUTS[1]: "level3", CUTS[2]: "level4", ceiling: "ceiling"}
+    label.update({t: f"top{x:g}" for x, (t, _) in tops.items()})   # a top-X% cut at the ceiling is labeled topX
     rows = [dict(test="CAASPP Math", year=year, group_type=gtype, group=gname, score=T,
                  cut_label=label.get(T, "grid"), method=method, assumption=assumption,
                  share_lo=round(lo_, 5), share_hi=round(hi_, 5), tau_pct=round(100 * info["tau"], 4),
