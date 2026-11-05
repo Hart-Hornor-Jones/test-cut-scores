@@ -203,3 +203,175 @@ Three layers, from the mildest to the most conservative:
 - `admit_composition.html` — interactive figure: share of admits by group against how many are admitted, with a year menu.
 
 - Scripts: `distfit.py` (the solver), `fit_caaspp.py`, `fit_sat.py`, `compare.py`, `bounds.py`, `sensitivity_seed.py`, `make_figure.py`, `build_memo.py`. They need Python with pandas, scipy and cvxpy; they were run in a Linux sandbox. Run order: fit_caaspp → fit_sat → compare → bounds → sensitivity_seed → build_memo.
+
+## 11. School-mixture estimates for CAASPP math (an alternative, not the default)
+
+*Added 2026-11-05. Everything in this section is produced by the scripts in `scripts/schoolmix/`; the outputs are the `data/estimated_*_schoolmix.csv` files. The default estimates in §3–§8 and the files without the suffix are unchanged.*
+
+### 11.1 Why
+
+§9 said what would tighten the CAASPP estimates: the CDE research files give N, mean and the four achievement-level shares for every school × student group. This section does that for grade-11 mathematics, using the public release of those rows at <https://github.com/Hart-Hornor-Jones/ca-sbac-math-levels> (`data/school_levels_grade11_math.csv`, one row per school × year × group, and `data/student_groups.csv` for the group codes). The published statewide tables used in §3 do not pin the shape of a group's distribution inside an achievement level, and that is where the wide bounds in §6 come from. A school's cell does pin it, roughly: a cell with a mean of 2790 and 85% in Level 4 puts most of its Level-4 students near the top of the level, and a cell with a mean of 2600 and 12% in Level 4 puts most of its Level-4 students near the bottom. Summing about a thousand such cells per group gives a within-level shape that the statewide table alone cannot.
+
+### 11.2 The mixture
+
+For every year with both files (2015, 2016, 2017, 2019, 2021–2025; there is no 2018 statewide table and no 2020 test) and every race/ethnicity and economic-status group:
+
+1. **One near-normal component per school × group cell.** A cell is a school's row for the group, with its mean score and its four level shares (one decimal from 2017, whole percents in 2015–16). The within-cell distribution is a normal with the cell's own mean, whose standard deviation is fitted by least squares to the cell's shares at or above the three level cuts (2543, 2628, 2718), then *anchored to the levels*: inside each level the shape is that normal's, and the mass in each level equals the cell's published share. Mass that the normal puts below 2280 sits at 2280; mass it puts at or above the ceiling (2862 through 2019, 2900 from 2021) sits at the ceiling. Cells whose shares fall entirely in one level cannot pin a standard deviation and take the group's student-weighted median (about 105–115 points).
+
+2. **The known mixture.** The group's distribution over the cells that have scores is the `students_with_scores`-weighted sum of the cell distributions.
+
+3. **The remainder.** The state suppresses a cell with fewer than 11 students (the row is kept with blank scores in 2015, 2016, 2019 and 2021–2023; it is omitted altogether in 2017, 2018, 2024 and 2025). The students in those cells are known only through the published statewide total. Their number is taken as the group's published share of all students, applied to the research-file all-student count, minus the students in the known cells. Their distribution is seeded with the statewide normal of §3 (the group's published mean and SD). Coverage by the known cells is high for the large groups and low for the small ones:
+
+| Group | Known cells cover (median over years) | Range |
+|---|---|---|
+| Hispanic or Latino | 99.4% | 99.0–99.4% |
+| Economically disadvantaged | 99.5% | 99.0–99.6% |
+| Not economically disadvantaged | 98.5% | 97.9–98.7% |
+| White | 96.1% | 94.8–97.2% |
+| Asian | 93.5% | 93.0–94.6% |
+| Black or African American | 79.1% | 69.2–84.8% |
+| Filipino | 76.3% | 70.4–80.1% |
+| Two or more races | 68.2% | 57.8–79.1% |
+| American Indian or Alaska Native | 13.6% | 7.8–16.4% |
+| Native Hawaiian or Pacific Islander | 13.7% | 7.1–15.1% |
+
+4. **Reconciliation.** The seed for each group is the known mixture plus the remainder, weighted by their counts. The point estimate is then the set of group distributions closest to the seeds (relative entropy, weighted by published N, exactly the machinery of §3) that reproduces every published statewide figure for each group within rounding (level shares ±0.5, mean ±0.5, SD ±1.5) and adds up, across the eight race/ethnicity groups or the two economic-status groups, to the published all-student 10-point histogram exactly. This is the same problem as §3 with a different seed: §3 starts from one statewide bell curve per group, this starts from the school mixture. Filipino is fitted as its own published group and folded into "Asian" for output, as in the default files.
+
+The reconciliation succeeded for every year and both groupings with no constraint relaxed. The adjustment it makes is small for the large groups (relative entropy of 0.001–0.004 nats per student; the share at or above any score moves by at most 2 percentage points, and by at most 0.1 points for Hispanic/Latino and Black students at 2860) and largest for Two or more races (up to 5 points, at the Level-3/Level-4 boundary), the group whose known cells are least representative. The direction of the adjustment is consistent across years: the raw mixture overstates the very top of every group's distribution (see 11.5), and the histogram pulls it back.
+
+### 11.3 The bounds
+
+The bounds are of the §3 kind: the smallest and largest share of a group at or above a score over every configuration consistent with the data and a stated shape assumption. The configuration is now one distribution per cell, not one per group. To keep the linear programs tractable, cells of a group with the same mean to within 10 points and the same fitted SD to within 20 points are pooled (cells with fewer than 50 students on a four-times-coarser grid), giving 300–650 components per grouping and year on 50 score bins (the histogram's 10-point bins from Level 2 up, split at the level cuts and at the top-X% cuts, pooled in threes below Level 2). Two sets are reported, both in `data/estimated_bounds_schoolmix.csv`:
+
+- **`schoolmix` / `bell` (the near-normal bounds).** Each component's level shares are held within rounding. Inside each level, its share at or above each bin must lie between the conditional normal tails over a range of standard deviations: the range spanned by the SDs that each of the three level cuts implies on its own (mean fixed), never narrower than ±10% of the fitted SD. A cell whose three cuts agree is held close to one normal; a cell whose cuts disagree is allowed the corresponding spread of shapes. The remainder is a single free component under the weak bell-shape assumption of §3 (declining above one SD over the published mean, convex above 1.5 SD, ceiling pile no larger than one SD times the density just below it). The group-level published figures and the histogram apply exactly as in 11.2.
+
+- **`schoolmix` / `none`.** The same, with no shape assumption at all: each component is held only to its level shares and its published mean (within 2 points, for the bin discretization), the remainder is free. These are wide, because nothing then says where inside Level 4 a cell's Level-4 students sit, and they show that it is the near-normal assumption, not the cell means and level shares by themselves, that does the work in the upper tail.
+
+For the comparison, the current method's bounds (one free distribution per group; `current` / `bell` and `current` / `none`) are recomputed on the same bins. Converted to shares of admits they agree with the §6 top-10% figures at the upper end (2025: Asian 51.5% here and in §6; Hispanic/Latino 32.2% against 32.3%; White 39.3% against 38.4%) and are a few points wider at the lower end (2025 Asian 16.9% against 20.6%) because of the coarser bins and because the top-10% cut is not a histogram bin edge, so the comparison errs toward understating the narrowing.
+
+Every school-mixture program was feasible with the published figures held to rounding and no tolerance relaxed (`tau_pct`, the minimal relaxation found before bounding, is 0 for them). The recomputed current-method bell-shape programs for the two economic-status groups needed a relaxation of 0.002–0.013 percentage points, a rounding-level artifact of the ceiling-pile rule.
+
+### 11.4 Results
+
+The comparison file `data/estimated_comparison_schoolmix.csv` holds, for every year, group and top-1/5/10/25% cut: the current point estimate (from `estimated_composition_at_standard_cuts.csv` where it has the cut, interpolated from the share file for 2015–16), the school-mixture point estimate before and after reconciliation, both sets of bounds, and each race group's share of the selected students under each point estimate. The cut scores are those of the composition file for 2017–2025 and, for 2015–16, the same rule (the lowest score at which the all-student share at or above it is no more than X%) applied to the reconciled all-student distribution.
+
+#### How much the bounds narrow (bell-shape bounds, width of the school-mixture bounds as a share of the current width; median over years)
+
+| Group | top 1% | top 5% | top 10% | top 25% |
+|---|---|---|---|---|
+| Asian | 0.43 (8.0 → 4.0 pp) | 0.27 (34.1 → 9.3 pp) | 0.24 (22.4 → 5.4 pp) | 0.19 (26.3 → 4.6 pp) |
+| Black | 0.50 (1.6 → 0.8 pp) | 0.53 (2.7 → 1.4 pp) | 0.72 (2.0 → 1.4 pp) | 0.39 (8.0 → 3.0 pp) |
+| Hispanic/Latino | 0.22 (1.8 → 0.5 pp) | 0.25 (3.9 → 1.0 pp) | 0.25 (3.1 → 0.8 pp) | 0.15 (11.0 → 1.1 pp) |
+| White | 0.41 (4.7 → 2.3 pp) | 0.36 (13.3 → 4.8 pp) | 0.20 (12.8 → 2.8 pp) | 0.10 (23.5 → 2.1 pp) |
+| Two or more | 0.46 (9.6 → 4.4 pp) | 0.38 (15.9 → 6.6 pp) | 0.30 (19.4 → 5.7 pp) | 0.34 (23.5 → 8.2 pp) |
+| American Indian | 0.94 (3.0 → 2.9 pp) | 0.95 (4.9 → 4.6 pp) | 0.96 (3.6 → 3.5 pp) | 0.91 (11.0 → 9.8 pp) |
+| Pacific Islander | 0.94 (3.4 → 3.2 pp) | 0.95 (5.8 → 5.5 pp) | 0.96 (6.3 → 5.8 pp) | 0.91 (14.2 → 13.5 pp) |
+| Economically disadvantaged | 0.30 (1.7 → 0.5 pp) | 0.25 (4.3 → 1.0 pp) | 0.23 (3.3 → 0.6 pp) | 0.08 (11.7 → 0.8 pp) |
+| Not economically disadvantaged | 0.38 (2.4 → 1.0 pp) | 0.46 (6.2 → 2.8 pp) | 0.31 (6.5 → 2.1 pp) | 0.06 (17.3 → 0.9 pp) |
+
+#### Whether the point estimates move (share of the group at or above the cut, school mixture minus current, percentage points; all years)
+
+| Group | top 1%: median / largest | top 5%: median / largest | top 10%: median / largest | top 25%: median / largest |
+|---|---|---|---|---|
+| Asian | -0.78 / +0.94 | -0.87 / -1.20 | -0.20 / -0.47 | +0.63 / +0.94 |
+| Black | +0.09 / +0.19 | +0.15 / +0.25 | +0.11 / +0.22 | -0.08 / +0.40 |
+| Hispanic/Latino | +0.08 / +0.19 | +0.17 / +0.25 | +0.16 / +0.30 | +0.14 / +0.33 |
+| White | +0.27 / +0.73 | +0.12 / +0.38 | -0.11 / -0.36 | -0.23 / -0.33 |
+| Two or more | +0.41 / +0.98 | +0.17 / +0.47 | -0.18 / -0.45 | -0.19 / -0.69 |
+| Economically disadvantaged | +0.12 / +0.18 | +0.22 / +0.29 | +0.22 / +0.29 | +0.04 / +0.17 |
+| Not economically disadvantaged | -0.18 / -0.30 | -0.31 / -0.45 | -0.29 / -0.40 | -0.04 / -0.21 |
+
+#### 2019: point estimate and bounds, share of the group at or above the cut (current → school mixture)
+
+| Cut (score) | Group | Point | Bell-shape bounds | No-assumption bounds | Share of selected (race groups) |
+|---|---|---|---|---|---|
+| top 1% (2862) | Asian | 4.9% → 5.9% | 0.0%–11.7% → 3.7%–8.5% | 0.0%–11.9% → 0.0%–11.9% | 61.8% → 51.2% |
+| top 1% (2862) | Black | 0.1% → 0.2% | 0.0%–2.0% → 0.1%–1.1% | 0.0%–4.5% → 0.0%–4.5% | 0.3% → 0.7% |
+| top 1% (2862) | Hispanic/Latino | 0.1% → 0.3% | 0.0%–2.7% → 0.2%–0.7% | 0.0%–2.8% → 0.0%–2.8% | 5.4% → 10.8% |
+| top 1% (2862) | White | 1.2% → 1.9% | 0.0%–6.3% → 1.1%–3.7% | 0.0%–6.4% → 0.0%–6.4% | 27.2% → 30.7% |
+| top 1% (2862) | Two or more | 1.3% → 2.3% | 0.0%–10.4% → 1.1%–6.9% | 0.0%–20.5% → 0.0%–20.4% | 5.2% → 6.4% |
+| top 1% (2862) | Economically disadvantaged | 0.3% → 0.5% | 0.0%–2.5% → 0.3%–1.1% | 0.0%–2.6% → 0.0%–2.6% |  |
+| top 1% (2862) | Not economically disadvantaged | 3.0% → 2.8% | 0.0%–3.4% → 1.9%–3.1% | 0.0%–3.5% → 0.0%–3.5% |  |
+| top 5% (2794) | Asian | 19.4% → 18.2% | 1.5%–39.7% → 13.9%–24.0% | 0.0%–40.8% → 0.1%–40.8% | 48.7% → 45.5% |
+| top 5% (2794) | Black | 0.7% → 0.8% | 0.0%–3.2% → 0.4%–2.2% | 0.0%–4.5% → 0.0%–4.5% | 0.7% → 0.9% |
+| top 5% (2794) | Hispanic/Latino | 1.2% → 1.4% | 0.0%–4.5% → 1.0%–2.0% | 0.0%–6.5% → 0.0%–5.9% | 12.8% → 15.5% |
+| top 5% (2794) | White | 6.8% → 6.9% | 0.0%–14.2% → 5.0%–10.1% | 0.0%–20.5% → 0.0%–20.5% | 31.7% → 32.0% |
+| top 5% (2794) | Two or more | 7.2% → 7.4% | 0.0%–15.6% → 4.2%–12.1% | 0.0%–20.5% → 0.0%–20.5% | 5.7% → 5.8% |
+| top 5% (2794) | Economically disadvantaged | 1.6% → 1.9% | 0.0%–4.9% → 1.4%–2.6% | 0.0%–7.5% → 0.0%–6.9% |  |
+| top 5% (2794) | Not economically disadvantaged | 9.6% → 9.3% | 5.2%–11.8% → 7.5%–10.5% | 0.6%–12.6% → 1.4%–12.6% |  |
+| top 10% (2745) | Asian | 32.6% → 32.1% | 10.9%–40.7% → 28.4%–34.6% | 4.7%–40.8% → 5.6%–40.8% | 40.9% → 40.0% |
+| top 10% (2745) | Black | 2.0% → 2.1% | 1.4%–4.0% → 1.6%–3.5% | 0.0%–4.5% → 0.0%–4.5% | 1.1% → 1.1% |
+| top 10% (2745) | Hispanic/Latino | 3.4% → 3.7% | 1.6%–5.8% → 3.2%–4.0% | 0.0%–6.5% → 0.0%–5.9% | 18.4% → 19.9% |
+| top 10% (2745) | White | 14.3% → 14.2% | 1.8%–19.9% → 12.6%–16.3% | 0.0%–20.5% → 0.1%–20.5% | 33.4% → 32.8% |
+| top 10% (2745) | Two or more | 14.6% → 14.4% | 0.0%–19.3% → 9.7%–17.3% | 0.0%–20.5% → 0.3%–20.5% | 5.8% → 5.7% |
+| top 10% (2745) | Economically disadvantaged | 4.2% → 4.4% | 2.4%–6.6% → 3.9%–4.8% | 0.0%–7.5% → 0.0%–6.9% |  |
+| top 10% (2745) | Not economically disadvantaged | 18.0% → 17.7% | 13.6%–21.2% → 16.3%–19.4% | 12.1%–24.5% → 12.9%–24.5% |  |
+| top 25% (2658) | Asian | 57.7% → 58.1% | 39.8%–66.7% → 54.9%–60.0% | 39.8%–66.7% → 39.8%–66.7% | 29.0% → 29.0% |
+| top 25% (2658) | Black | 9.2% → 9.3% | 4.3%–12.0% → 7.9%–11.4% | 3.5%–16.0% → 3.5%–16.0% | 1.9% → 1.9% |
+| top 25% (2658) | Hispanic/Latino | 13.9% → 14.2% | 6.8%–19.3% → 13.5%–14.5% | 5.8%–21.0% → 5.8%–20.4% | 30.0% → 30.5% |
+| top 25% (2658) | White | 35.5% → 35.3% | 19.5%–45.0% → 34.7%–36.4% | 19.5%–45.0% → 19.7%–45.0% | 33.1% → 32.7% |
+| top 25% (2658) | Two or more | 34.3% → 33.8% | 19.5%–43.0% → 28.5%–37.9% | 19.5%–43.0% → 19.5%–43.0% | 5.5% → 5.3% |
+| top 25% (2658) | Economically disadvantaged | 14.8% → 14.9% | 8.2%–20.3% → 14.4%–15.2% | 6.7%–22.0% → 7.1%–21.2% |  |
+| top 25% (2658) | Not economically disadvantaged | 39.1% → 39.1% | 31.3%–49.0% → 38.5%–39.4% | 28.4%–49.0% → 29.5%–48.5% |  |
+
+#### 2025: point estimate and bounds, share of the group at or above the cut (current → school mixture)
+
+| Cut (score) | Group | Point | Bell-shape bounds | No-assumption bounds | Share of selected (race groups) |
+|---|---|---|---|---|---|
+| top 1% (2900) | Asian | 4.8% → 4.0% | 0.0%–8.2% → 2.4%–5.8% | 0.0%–8.2% → 0.0%–8.2% | 61.5% → 49.3% |
+| top 1% (2900) | Black | 0.1% → 0.3% | 0.0%–2.7% → 0.1%–1.5% | 0.0%–6.5% → 0.0%–6.5% | 0.4% → 1.2% |
+| top 1% (2900) | Hispanic/Latino | 0.1% → 0.2% | 0.0%–1.9% → 0.1%–0.7% | 0.0%–1.9% → 0.0%–1.9% | 5.7% → 11.8% |
+| top 1% (2900) | White | 1.2% → 1.5% | 0.0%–5.3% → 0.9%–3.1% | 0.0%–5.3% → 0.0%–5.3% | 23.9% → 27.8% |
+| top 1% (2900) | Two or more | 1.8% → 2.2% | 0.0%–11.2% → 1.1%–5.6% | 0.0%–20.8% → 0.0%–20.8% | 8.3% → 9.7% |
+| top 1% (2900) | Economically disadvantaged | 0.2% → 0.4% | 0.0%–1.7% → 0.3%–0.8% | 0.0%–1.7% → 0.0%–1.7% |  |
+| top 1% (2900) | Not economically disadvantaged | 2.5% → 2.2% | 0.0%–2.9% → 1.5%–2.4% | 0.0%–2.9% → 0.0%–2.9% |  |
+| top 5% (2803) | Asian | 18.2% → 17.4% | 1.7%–39.2% → 13.3%–22.6% | 0.0%–40.0% → 0.2%–40.0% | 46.8% → 44.0% |
+| top 5% (2803) | Black | 1.2% → 1.4% | 0.2%–4.7% → 0.8%–3.2% | 0.0%–6.5% → 0.0%–6.5% | 1.1% → 1.3% |
+| top 5% (2803) | Hispanic/Latino | 1.4% → 1.6% | 0.0%–4.3% → 1.1%–2.3% | 0.0%–6.5% → 0.0%–6.5% | 15.5% → 17.6% |
+| top 5% (2803) | White | 7.0% → 7.3% | 0.0%–14.5% → 5.7%–10.0% | 0.0%–20.5% → 0.0%–20.5% | 28.0% → 28.7% |
+| top 5% (2803) | Two or more | 8.6% → 8.7% | 0.0%–18.5% → 5.8%–12.6% | 0.0%–22.5% → 0.0%–22.5% | 8.2% → 8.1% |
+| top 5% (2803) | Economically disadvantaged | 2.0% → 2.3% | 0.0%–5.1% → 1.7%–3.2% | 0.0%–8.3% → 0.0%–8.3% |  |
+| top 5% (2803) | Not economically disadvantaged | 10.5% → 10.0% | 5.0%–14.0% → 8.1%–11.3% | 0.0%–14.5% → 0.0%–14.5% |  |
+| top 10% (2750) | Asian | 30.8% → 30.6% | 13.1%–40.0% → 26.6%–33.2% | 6.2%–40.0% → 6.2%–40.0% | 39.6% → 39.1% |
+| top 10% (2750) | Black | 3.3% → 3.4% | 2.6%–5.8% → 2.7%–5.0% | 0.0%–6.5% → 0.0%–6.5% | 1.6% → 1.6% |
+| top 10% (2750) | Hispanic/Latino | 3.8% → 4.0% | 1.5%–5.7% → 3.4%–4.4% | 0.0%–6.5% → 0.0%–6.5% | 21.7% → 22.4% |
+| top 10% (2750) | White | 14.4% → 14.5% | 1.5%–19.5% → 13.0%–16.0% | 0.0%–20.5% → 0.1%–20.5% | 28.9% → 28.9% |
+| top 10% (2750) | Two or more | 16.5% → 16.1% | 0.0%–22.5% → 12.7%–18.5% | 0.0%–22.5% → 0.4%–22.5% | 7.8% → 7.6% |
+| top 10% (2750) | Economically disadvantaged | 4.9% → 5.1% | 2.4%–7.2% → 4.5%–5.7% | 1.2%–8.5% → 1.2%–8.4% |  |
+| top 10% (2750) | Not economically disadvantaged | 19.0% → 18.6% | 15.0%–23.2% → 17.6%–19.7% | 12.8%–25.5% → 13.0%–25.5% |  |
+| top 25% (2654) | Asian | 56.0% → 56.9% | 39.0%–64.4% → 54.2%–58.8% | 39.0%–64.4% → 39.0%–64.4% | 28.8% → 29.1% |
+| top 25% (2654) | Black | 12.2% → 12.1% | 6.6%–13.9% → 10.5%–13.4% | 5.5%–17.0% → 5.5%–17.0% | 2.3% → 2.3% |
+| top 25% (2654) | Hispanic/Latino | 14.6% → 14.7% | 7.6%–19.2% → 14.0%–15.3% | 7.1%–20.0% → 7.1%–19.9% | 33.2% → 33.1% |
+| top 25% (2654) | White | 35.2% → 35.3% | 19.5%–43.0% → 34.2%–36.5% | 19.5%–43.0% → 20.0%–43.0% | 28.2% → 28.2% |
+| top 25% (2654) | Two or more | 36.1% → 35.9% | 21.5%–43.0% → 32.8%–37.9% | 21.5%–43.0% → 21.5%–43.0% | 6.9% → 6.8% |
+| top 25% (2654) | Economically disadvantaged | 16.3% → 16.4% | 10.3%–22.0% → 15.8%–16.7% | 10.2%–22.0% → 10.5%–21.6% |  |
+| top 25% (2654) | Not economically disadvantaged | 40.6% → 40.4% | 29.4%–48.0% → 39.8%–40.7% | 27.4%–48.0% → 28.2%–47.5% |  |
+
+Read together: the point estimates barely move below the top 5% (never by more than 0.5 percentage points for Hispanic/Latino, Black, White or economically disadvantaged students, and by at most 1.2 points for any group), while the bounds narrow to between a tenth and a half of their width (medians of a fifth to a third) for every group with cell coverage above 90%. At the top 1% and 5% the mixture puts a little less of the Asian group and a little more of every other group at the very top than the statewide bell curves do, so the Asian share of a top-1% selection falls by 10–13 points (2019: 61.8% → 51.2%) and of a top-5% selection by 2–3 points (2019: 48.7% → 45.5%), while the Hispanic/Latino share rises by 3–6 points at the top 1% and 1–3 points at the top 5%. Below the top 5% the composition of the selected group is the same under both methods to within 1.5 points. For American Indian and Pacific Islander students, whose cells cover a seventh of the group, nothing changes.
+
+### 11.5 Assumptions, checks and failure modes
+
+1. **Within-cell normality.** The all-student cells (group code 1) can be checked directly, because the published histogram is the all-student distribution and no group constraint is involved. Pooling the 2,000-odd all-student cells, each a level-anchored normal, reproduces the histogram to within 0.1 percentage points at every 10-point bin up to about 2740, but overstates the top tail: the share at or above 2860 comes out 1.14–1.33 times the published share in 2021–2025 and 1.33–1.61 times in 2015–2019, and the share at the ceiling 1.19–1.33 times (`data/estimated_diagnostics_schoolmix_allstudents.csv`). The scale is compressed at the top (few items separate the highest scores), so a normal fitted at the level cuts has too heavy a tail inside Level 4. The reconciliation step removes this at the all-student level; what it cannot verify is how the correction is shared out across groups, and the near-normal bounds inherit the same tail shape. Readers should treat the top-1% rows as the least settled.
+
+2. **Suppressed cells.** The remainder is seeded with the statewide normal and then reconciled, so it absorbs the gap between the known cells and the published figures. That gap is informative: for Asian, White and Two-or-more students the known cells score higher than the group as a whole, so the students in small cells (a group's few students at a school where it is a small minority) score lower, by 80–120 points on the mean. For groups with 70–85% coverage (Black, Filipino, Two or more races) the remainder's shape matters, and the bounds, which let the remainder take any bell shape, are correspondingly wider than for Hispanic/Latino or White students. For American Indian and Pacific Islander students, with 7–16% coverage, the school-mixture estimate is nearly the §3 estimate and the bounds barely narrow.
+
+3. **Ceiling scores.** Scores pile up at the ceiling (4,555 students at 2900 in 2025, 1.05% of all). Each cell's normal puts its mass above the ceiling at the ceiling, the histogram constraint fixes the all-student pile exactly, and the bounds let a cell's ceiling share range over its SD range. The top-1% cut sits at the ceiling in 2017, 2019 and 2025 and just below it in the other years, so the top-1% bounds are a statement about who sits at the ceiling. Through 2019 the published histogram pools 2860–2862 in one row, so the split between the ceiling pile and the two scores below it is not pinned by any published figure; the two methods split it differently (in 2019 the current estimate puts 4.9% of Asian students at 2862 and 2.4% at 2860–2861, the mixture 5.9% and 0.2%), which is why the 2017 and 2019 top-1% point estimates move the most. From 2021 the histogram reports the ceiling on its own row.
+
+4. **Population.** The research file counts 1–3% more tested students than the technical-report tables (430,137 against 423,334 in 2025), and the by-group tables sum to the all-student table while the histogram has its own total. The mixture is used in shares, with each group weighted by its published N. Pooled across the known cells, the level shares differ from the published ones by up to 0.6 points for large groups, within what the remainder and the rounding intervals absorb, as the feasibility of every program confirms.
+
+5. **Data defects.** Five rows of the source file carry `students_with_scores` with "100" appended (16 written as 16100); one of them, a 2016 Two-or-more-races row, would otherwise have made that group's 2016 mixture mostly one school. They are capped at `students_tested`. In 2024 and 2025 the research file omits suppressed rows, and about 5% of students (23,000) are in no race cell; the remainder covers them. 2021 is the pandemic year, with fewer than half of juniors tested; its mixture is of the same quality as other years' but describes a selected population.
+
+6. **Level-share rounding in small cells.** A cell of 11 students has shares in multiples of 9%; pooling cells with similar means and SDs before bounding averages this out, and the rounding intervals (±0.05, ±0.5 in 2015–16) are kept per component. A component whose shares cannot be met by any bell-shaped distribution (an empty level below an occupied one, in a handful of tiny cells) gets no shape constraint; the share of students affected is recorded in `share_without_shape_constraint` and is zero under the near-normal envelope.
+
+7. **What the bounds do not cover.** They take the cell means and level shares as exact to rounding and the near-normal envelope as the whole truth about within-level shape. A systematic departure from normality that all cells share, such as the compressed top tail in point 1, moves the point estimate and the bounds together. The seed-family range of §6 is the analogue here: re-running with a logistic or skew-normal within-cell shape was not done.
+
+8. **Scope.** Mathematics only, grade 11, race/ethnicity and economic status. ELA could be done the same way with the ELA research files; gender cells are in the school file but were not fitted. The page shows the school-mixture estimate as a separate choice in the test menu ("CAASPP grade 11 Math — school-mixture estimate"), with the default unchanged.
+
+### 11.6 Files and scripts
+
+- `data/estimated_share_above_cut_schoolmix.csv` — same layout as `estimated_share_above_cut.csv` (CAASPP Math only), plus `share_at_or_above_unadjusted`, the mixture before reconciliation.
+- `data/estimated_bounds_schoolmix.csv` — bounds at the level cuts, the top-1/5/10/25% cuts and the ceiling, for `schoolmix` and `current` under `bell` and `none`.
+- `data/estimated_comparison_schoolmix.csv` — the comparison in 11.4.
+- `data/estimated_diagnostics_schoolmix.csv` — per group and year: coverage, cells, fitted SDs, published versus seed versus reconciled mean, SD and level shares, and the size of the reconciliation.
+- `data/estimated_diagnostics_schoolmix_allstudents.csv` — the check in 11.5, point 1.
+- `scripts/schoolmix/`: `common.py` (loading, cell fits, grids), `fit_schoolmix.py` (point estimates), `bounds_schoolmix.py` (linear programs; about an hour on four cores), `compare_schoolmix.py` (comparison and the tables above), `check_allstudents_schoolmix.py`, `add_to_page.py` (the page's extra menu entry). They need numpy, scipy, pandas, cvxpy and highspy, and take the path to `school_levels_grade11_math.csv` from the source repository as their argument; see `scripts/schoolmix/README.md` for the run order.

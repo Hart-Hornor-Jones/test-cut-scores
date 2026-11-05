@@ -26,6 +26,25 @@ Open `index.html`. Pick a test, a cohort, and a grouping (race/ethnicity, gender
 
 How the estimates were made, and how uncertain they are, is in `METHOD.md`. In short: each group's distribution is the smoothest bell-shaped curve that reproduces every published number for that group and adds up, across groups, to the published all-student distribution.
 
+## School-mixture estimates for CAASPP math (alternative)
+
+`data/estimated_*_schoolmix.csv` are a second set of estimates for CAASPP grade-11 mathematics only, built from school-level results (one near-normal component per school × student group, from the public research-file rows in [ca-sbac-math-levels](https://github.com/Hart-Hornor-Jones/ca-sbac-math-levels)) and reconciled to the same published statewide figures and histogram as the default estimates. They are not the default; the page shows them as a separate choice in the test menu ("CAASPP grade 11 Math — school-mixture estimate"), without a gender grouping.
+
+| File | What it holds |
+|---|---|
+| `estimated_share_above_cut_schoolmix.csv` | Same layout as `estimated_share_above_cut.csv`, with the unreconciled mixture as an extra column. |
+| `estimated_bounds_schoolmix.csv` | Min/max bounds on the share at or above the level cuts, the top-1/5/10/25% cuts and the ceiling, for the school mixture and for the current method on the same grid. |
+| `estimated_comparison_schoolmix.csv` | Point estimates and bounds under both methods at the top-1/5/10/25% cuts, every year and group. |
+| `estimated_diagnostics_schoolmix*.csv` | Coverage of each group by unsuppressed cells, the size of the reconciliation, and the all-student check of within-cell normality. |
+
+How the mixture is built, what it assumes and where it fails is in `METHOD.md`, §11; the scripts are in `scripts/schoolmix/`. In short, compared with the default estimates:
+
+- **Bounds.** At the top-5%, top-10% and top-25% cuts the bell-shape bounds on a group's share above the cut narrow to between a tenth and a half of their current width, typically a fifth to a third, for Asian, Hispanic/Latino, White, Two-or-more and both economic-status groups (2015–2025; for example the 2025 top-10% bounds for Asian students go from 13.1%–40.0% to 26.6%–33.2%, and for Hispanic/Latino students from 1.5%–5.7% to 3.4%–4.4%). At the top 1% they narrow to about 40% of their width. Black students' bounds narrow less (about 80% of the group is in unsuppressed cells), and American Indian and Pacific Islander students' bounds hardly at all (about 14% is).
+- **Point estimates.** They move little: never by more than 0.5 percentage points below the top 5% for Hispanic/Latino, Black, White or economically disadvantaged students, and by at most 1.2 points for any group. At the top 1% and 5% the mixture gives a slightly less Asian and slightly more Hispanic/Latino, White and Black selection than the statewide bell curves (2019 top 5%: Asian share of the selected 48.7% → 45.5%, Hispanic/Latino 12.8% → 15.5%).
+- **Reconciliation.** The mixture reconciles with every published statewide figure within rounding and with the histogram exactly, in every year and grouping, without relaxing any constraint. Its main known weakness is that a normal fitted at the level cuts overstates the very top of the scale before reconciliation (by a fifth to a half of the share at or above 2860), so the top-1% rows are the least settled.
+
+The full comparison, every year and group, is in `data/estimated_comparison_schoolmix.csv`; the summary tables are in `METHOD.md`, §11.4.
+
 ## Notes
 
 - CAASPP covers every tested public-school junior. The SAT covers students in the graduating class who took it: 63% of juniors in the class of 2020, about 30% from 2023 on.
