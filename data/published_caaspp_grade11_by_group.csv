@@ -2,6 +2,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2014-15,ELA,All,All students,,422098,2591,110,20,24,33,23,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2014-15,ELA,Economic status,Not disadvantaged,,190559,2626,106,12,19,35,34,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2014-15,ELA,Economic status,Disadvantaged,,231539,2563,104,26,29,32,13,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2014-15,ELA,Gender,Male,,214145,2576,113,25,25,31,20,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2014-15,ELA,Gender,Female,,207953,2607,104,15,24,36,26,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2014-15,ELA,Race/Ethnicity,American Indian or Alaska Native,,2616,2570,108,25,27,31,17,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2014-15,ELA,Race/Ethnicity,Asian,,38752,2657,105,9,13,30,48,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2014-15,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2384,2573,105,24,28,33,16,caaspp14techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
@@ -29,6 +31,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2014-15,Math,All,All students,,419508,2560,125,45,25,18,11,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2014-15,Math,Economic status,Not disadvantaged,,189172,2601,127,32,25,24,19,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2014-15,Math,Economic status,Disadvantaged,,230336,2526,112,56,25,14,5,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2014-15,Math,Gender,Male,,213078,2555,132,48,23,17,12,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2014-15,Math,Gender,Female,,206430,2565,118,43,27,20,10,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2014-15,Math,Race/Ethnicity,American Indian or Alaska Native,,2564,2531,115,56,24,15,6,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2014-15,Math,Race/Ethnicity,Asian,,38858,2672,124,16,18,27,40,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2014-15,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2353,2540,114,50,29,14,7,caaspp14techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
@@ -56,6 +60,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2015-16,ELA,All,All students,,434061,2600,111,19,22,33,26,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2015-16,ELA,Economic status,Not disadvantaged,,184477,2639,104,10,17,34,39,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2015-16,ELA,Economic status,Disadvantaged,,249584,2571,107,25,27,33,16,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2015-16,ELA,Gender,Male,,221104,2585,115,23,23,31,22,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2015-16,ELA,Gender,Female,,212957,2616,104,14,22,36,29,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2015-16,ELA,Race/Ethnicity,American Indian or Alaska Native,,2562,2573,109,25,26,33,17,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2015-16,ELA,Race/Ethnicity,Asian,,40041,2668,103,8,11,29,52,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2015-16,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2291,2577,106,23,25,34,17,sb16sbtechrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
@@ -83,6 +89,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2015-16,Math,All,All students,,432348,2568,125,43,25,20,13,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2015-16,Math,Economic status,Not disadvantaged,,183797,2615,124,28,24,26,22,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2015-16,Math,Economic status,Disadvantaged,,248551,2533,114,54,25,15,6,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2015-16,Math,Gender,Male,,220371,2563,131,45,23,18,14,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2015-16,Math,Gender,Female,,211977,2573,118,41,27,21,12,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2015-16,Math,Race/Ethnicity,American Indian or Alaska Native,,2527,2539,112,53,24,16,7,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2015-16,Math,Race/Ethnicity,Asian,,40143,2681,120,14,16,27,43,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2015-16,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2268,2547,115,47,28,18,7,sb16sbtechrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
@@ -110,6 +118,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2016-17,ELA,All,All students,,436391,2603,115,19,21,32,28,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2016-17,ELA,Economic status,Not disadvantaged,,192097,2642,108,11,16,33,41,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2016-17,ELA,Economic status,Disadvantaged,,244294,2572,111,25,26,32,17,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2016-17,ELA,Gender,Male,,221869,2587,119,23,22,30,24,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
+2016-17,ELA,Gender,Female,,214522,2619,109,14,20,34,31,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2016-17,ELA,Race/Ethnicity,American Indian or Alaska Native,,2465,2572,114,26,25,30,18,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2016-17,ELA,Race/Ethnicity,Asian,,43299,2674,105,7,10,27,55,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
 2016-17,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2229,2580,109,23,26,33,19,sbac17techrpt.pdf,"Table 7.E.7 Demographic Summary for ELA, Grade Eleven"
@@ -137,6 +147,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2016-17,Math,All,All students,,436197,2565,129,44,24,19,13,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2016-17,Math,Economic status,Not disadvantaged,,191988,2612,128,29,24,25,22,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2016-17,Math,Economic status,Disadvantaged,,244209,2528,117,56,24,15,6,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2016-17,Math,Gender,Male,,221761,2561,135,46,22,18,14,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
+2016-17,Math,Gender,Female,,214436,2569,122,42,25,21,12,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2016-17,Math,Race/Ethnicity,American Indian or Alaska Native,,2449,2527,120,57,23,14,6,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2016-17,Math,Race/Ethnicity,Asian,,43515,2683,123,14,16,27,44,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
 2016-17,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2208,2545,116,49,27,17,7,sbac17techrpt.pdf,"Table 7.E.14 Demographic Summary for Mathematics, Grade Eleven"
@@ -164,6 +176,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2018-19,ELA,All,All students,,437677,2597,119,21,21,30,27,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
 2018-19,ELA,Economic status,Not disadvantaged,,186370,2636,113,13,16,31,40,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
 2018-19,ELA,Economic status,Disadvantaged,,251307,2567,115,28,25,30,18,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
+2018-19,ELA,Gender,Male,,222039,2580,123,27,22,28,24,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
+2018-19,ELA,Gender,Female,,215638,2614,112,16,21,33,31,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
 2018-19,ELA,Race/Ethnicity,American Indian or Alaska Native,,2230,2564,117,29,25,28,18,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
 2018-19,ELA,Race/Ethnicity,Asian,,42461,2670,109,8,12,26,54,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
 2018-19,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2124,2574,113,25,24,31,19,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-ELA
@@ -191,6 +205,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2018-19,Math,All,All students,,434831,2564,133,45,22,18,14,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
 2018-19,Math,Economic status,Not disadvantaged,,185203,2614,133,30,22,24,24,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
 2018-19,Math,Economic status,Disadvantaged,,249628,2527,120,57,22,14,7,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
+2018-19,Math,Gender,Male,,220743,2559,139,48,21,17,15,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
+2018-19,Math,Gender,Female,,214088,2569,125,43,24,20,13,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
 2018-19,Math,Race/Ethnicity,American Indian or Alaska Native,,2194,2520,118,59,22,13,6,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
 2018-19,Math,Race/Ethnicity,Asian,,42229,2687,129,15,15,24,46,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
 2018-19,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,2086,2544,119,50,24,18,7,caaspp19techrptappdx7.docx,Table 7.E.  Demographic Summary for Grade Eleven-Mathematics
@@ -218,6 +234,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2020-21,ELA,All,All students,,207139,2605,125,19,21,30,29,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
 2020-21,ELA,Economic status,Not disadvantaged,,88579,2645,122,12,16,30,42,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
 2020-21,ELA,Economic status,Disadvantaged,,118560,2576,119,25,25,30,20,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
+2020-21,ELA,Gender,Male,,102116,2589,128,24,22,28,25,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
+2020-21,ELA,Gender,Female,,104937,2622,119,15,21,32,33,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
 2020-21,ELA,Race/Ethnicity,American Indian or Alaska Native,,1022,2568,123,28,24,31,18,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
 2020-21,ELA,Race/Ethnicity,Asian,,23095,2686,118,7,10,25,57,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
 2020-21,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,854,2592,119,23,22,31,23,caaspp21techrptappdx7.docx,Table 7.E.7  Demographic Student Group Summary for Grade Eleven-ELA
@@ -245,6 +263,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2020-21,Math,All,All students,,199959,2577,134,41,25,19,16,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
 2020-21,Math,Economic status,Not disadvantaged,,85467,2624,136,28,23,23,26,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
 2020-21,Math,Economic status,Disadvantaged,,114492,2542,120,51,26,16,8,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
+2020-21,Math,Gender,Male,,98849,2574,140,43,23,18,17,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
+2020-21,Math,Gender,Female,,101025,2580,127,39,26,20,15,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
 2020-21,Math,Race/Ethnicity,American Indian or Alaska Native,,956,2525,124,58,23,12,7,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
 2020-21,Math,Race/Ethnicity,Asian,,22572,2698,131,13,15,24,48,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
 2020-21,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,814,2565,123,45,26,18,12,caaspp21techrptappdx7.docx,Table 7.E.14  Demographic Student Group Summary for Grade Eleven-Mathematics
@@ -272,6 +292,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2021-22,ELA,All,All students,,412146,2590,127,23,22,29,26,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2021-22,ELA,Economic status,Not disadvantaged,,176187,2629,124,15,17,31,37,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2021-22,ELA,Economic status,Disadvantaged,,235959,2561,122,30,25,28,17,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2021-22,ELA,Gender,Male,,206461,2572,131,29,22,27,22,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2021-22,ELA,Gender,Female,,201565,2608,121,18,21,31,29,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2021-22,ELA,Race/Ethnicity,American Indian or Alaska Native,,1830,2558,121,29,28,26,17,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2021-22,ELA,Race/Ethnicity,Asian,,40903,2674,118,8,11,27,53,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2021-22,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1795,2569,120,27,25,30,18,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
@@ -299,6 +321,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2021-22,Math,All,All students,,409626,2545,138,52,21,15,12,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2021-22,Math,Economic status,Not disadvantaged,,174936,2595,142,36,22,20,21,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2021-22,Math,Economic status,Disadvantaged,,234690,2507,122,63,20,11,5,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2021-22,Math,Gender,Male,,206461,2542,144,53,20,15,13,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2021-22,Math,Gender,Female,,200075,2547,131,51,23,16,11,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2021-22,Math,Race/Ethnicity,American Indian or Alaska Native,,1820,2503,123,64,21,9,6,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2021-22,Math,Race/Ethnicity,Asian,,40663,2675,140,18,16,24,42,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2021-22,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1779,2523,125,58,22,13,7,sbcaaspptechrpt22apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
@@ -326,6 +350,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2022-23,ELA,All,All students,,428934,2591,128,23,21,29,26,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
 2022-23,ELA,Economic status,Not disadvantaged,,168286,2635,123,14,16,31,39,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
 2022-23,ELA,Economic status,Disadvantaged,,260648,2562,123,29,24,29,18,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
+2022-23,ELA,Gender,Male,,218873,2574,132,28,21,27,23,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
+2022-23,ELA,Gender,Female,,209298,2608,121,18,21,32,29,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
 2022-23,ELA,Race/Ethnicity,American Indian or Alaska Native,,1872,2560,124,31,24,27,18,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
 2022-23,ELA,Race/Ethnicity,Asian,,41877,2673,117,8,11,28,53,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
 2022-23,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1819,2573,121,27,24,29,20,sbcaaspptechrpt23apdx7.docx,"Table 7.D.7  Demographic Student Group Summary-ELA, Grade Eleven"
@@ -353,6 +379,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2022-23,Math,All,All students,,427834,2545,138,51,21,15,12,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2022-23,Math,Economic status,Not disadvantaged,,167850,2602,142,34,22,21,22,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2022-23,Math,Economic status,Disadvantaged,,259984,2509,123,62,21,11,5,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2022-23,Math,Gender,Male,,218333,2545,145,52,20,15,13,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2022-23,Math,Gender,Female,,208745,2545,131,51,23,16,11,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2022-23,Math,Race/Ethnicity,American Indian or Alaska Native,,1846,2511,123,63,21,11,6,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2022-23,Math,Race/Ethnicity,Asian,,41869,2674,141,18,17,23,42,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2022-23,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1816,2524,123,57,23,14,7,sbcaaspptechrpt23apdx7.docx,"Table 7.D.14  Demographic Student Group Summary-Mathematics, Grade Eleven"
@@ -380,6 +408,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2023-24,ELA,All,All students,,435289,2591,128,23,21,30,26,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2023-24,ELA,Economic status,Not disadvantaged,,163764,2635,123,14,16,31,40,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2023-24,ELA,Economic status,Disadvantaged,,271525,2564,124,29,24,29,18,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2023-24,ELA,Gender,Male,,222991,2574,133,28,21,27,23,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2023-24,ELA,Gender,Female,,211347,2608,121,18,21,32,29,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2023-24,ELA,Race/Ethnicity,American Indian or Alaska Native,,1922,2559,124,30,25,28,17,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2023-24,ELA,Race/Ethnicity,Asian,,43175,2670,120,9,11,27,53,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2023-24,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1866,2566,121,28,25,28,18,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
@@ -407,6 +437,8 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2023-24,Math,All,All students,,428245,2548,139,51,21,16,12,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2023-24,Math,Economic status,Not disadvantaged,,161229,2604,142,34,22,21,23,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2023-24,Math,Economic status,Disadvantaged,,267016,2514,124,61,21,12,6,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2023-24,Math,Gender,Male,,219581,2549,146,51,20,15,14,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2023-24,Math,Gender,Female,,207741,2547,131,51,23,16,11,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2023-24,Math,Race/Ethnicity,American Indian or Alaska Native,,1859,2509,127,62,21,11,6,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2023-24,Math,Race/Ethnicity,Asian,,42538,2676,141,18,16,23,42,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2023-24,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1825,2522,123,57,24,12,7,sbcaaspptechrpt24apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
@@ -434,6 +466,9 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2024-25,ELA,All,All students,,428340,2595,129,22,21,30,27,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2024-25,ELA,Economic status,Disadvantaged,,272139,2569,125,28,23,29,19,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2024-25,ELA,Economic status,Not disadvantaged,,156201,2640,123,13,15,30,41,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2024-25,ELA,Gender,Male,,219953,2578,133,27,21,27,24,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2024-25,ELA,Gender,Female,,207445,2612,122,17,20,32,31,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
+2024-25,ELA,Gender,Nonbinary,,942,2652,118,10,14,32,43,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2024-25,ELA,Race/Ethnicity,American Indian or Alaska Native,,1876,2552,126,33,24,26,17,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2024-25,ELA,Race/Ethnicity,Asian,,43720,2671,121,9,11,27,53,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
 2024-25,ELA,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1866,2570,123,27,25,29,19,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-ELA, Grade Eleven"
@@ -461,6 +496,9 @@ school_year,subject,group_type,group,economic_status,n_tested,mean_scale_score,s
 2024-25,Math,All,All students,,423334,2556,142,49,21,16,14,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2024-25,Math,Economic status,Disadvantaged,,268965,2523,129,58,21,13,8,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2024-25,Math,Economic status,Not disadvantaged,,154369,2614,144,32,21,22,25,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2024-25,Math,Gender,Male,,217611,2558,149,48,20,16,16,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2024-25,Math,Gender,Female,,204798,2555,134,49,22,16,12,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
+2024-25,Math,Gender,Nonbinary,,925,2587,138,39,22,19,20,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2024-25,Math,Race/Ethnicity,American Indian or Alaska Native,,1837,2511,130,62,18,12,8,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2024-25,Math,Race/Ethnicity,Asian,,43394,2680,141,17,16,23,44,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"
 2024-25,Math,Race/Ethnicity,Native Hawaiian or Pacific Islander,,1824,2536,129,53,24,14,9,sbcaaspptechrpt25apdx7.docx,"Table 7.D.  Demographic Student Group Summary-Mathematics, Grade Eleven"

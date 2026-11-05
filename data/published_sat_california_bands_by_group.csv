@@ -17,12 +17,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2018,Asian,46615,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Asian,46615,600,790,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Asian,46615,800,990,14,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,1000,1190,35,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,1200,1390,19,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,1400,1600,6,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,600,790,8,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Female,142745,800,990,32,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,1000,1190,34,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,1200,1390,10,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,1400,1600,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,600,790,12,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Hispanic,122525,800,990,42,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,1000,1190,34,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,1200,1390,22,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,1400,1600,10,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,400,590,0,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,600,790,8,table,2018-california-sat-suite-assessments-annual-report.pdf,6
+2018,Male,119474,800,990,27,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Native Hawaiian,1323,1000,1190,38,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Native Hawaiian,1323,1200,1390,14,table,2018-california-sat-suite-assessments-annual-report.pdf,6
 2018,Native Hawaiian,1323,1400,1600,2,table,2018-california-sat-suite-assessments-annual-report.pdf,6
@@ -65,12 +77,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2019,Asian,46827,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Asian,46827,600,790,2,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Asian,46827,800,990,14,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,1000,1190,34,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,1200,1390,18,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,1400,1600,7,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,600,790,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Female,147651,800,990,32,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,1000,1190,32,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,1200,1390,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,1400,1600,2,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,600,790,15,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Hispanic,132151,800,990,42,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,1000,1190,31,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,1200,1390,21,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,1400,1600,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,400,590,0,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,600,790,10,table,2019-california-sat-suite-assessments-annual-report.pdf,6
+2019,Male,125112,800,990,27,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Native Hawaiian,1211,1000,1190,35,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Native Hawaiian,1211,1200,1390,12,table,2019-california-sat-suite-assessments-annual-report.pdf,6
 2019,Native Hawaiian,1211,1400,1600,3,table,2019-california-sat-suite-assessments-annual-report.pdf,6
@@ -113,12 +137,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2020,Asian,46401,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Asian,46401,600,790,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Asian,46401,800,990,15,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,1000,1190,32,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,1200,1390,17,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,1400,1600,6,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,600,790,11,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Female,151619,800,990,33,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,1000,1190,30,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,1200,1390,9,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,1400,1600,1,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,600,790,17,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Hispanic,141662,800,990,42,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,1000,1190,29,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,1200,1390,19,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,1400,1600,9,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,400,590,0,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,600,790,13,table,2020-california-sat-suite-assessments-annual-report.pdf,6
+2020,Male,132672,800,990,29,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Native Hawaiian,1204,1000,1190,32,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Native Hawaiian,1204,1200,1390,9,table,2020-california-sat-suite-assessments-annual-report.pdf,6
 2020,Native Hawaiian,1204,1400,1600,3,table,2020-california-sat-suite-assessments-annual-report.pdf,6
@@ -161,12 +197,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2021,Asian,24554,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Asian,24554,600,790,3,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Asian,24554,800,990,10,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,1000,1190,26,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,1200,1390,18,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,1400,1600,10,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,400,590,0,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,600,790,15,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Female,58530,800,990,30,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,1000,1190,23,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,1200,1390,7,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,1400,1600,2,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,400,590,1,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,600,790,26,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Hispanic,54030,800,990,43,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,1000,1190,23,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,1200,1390,19,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,1400,1600,14,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,400,590,1,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,600,790,17,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
+2021,Male,57690,800,990,27,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Native Hawaiian,389,1000,1190,25,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Native Hawaiian,389,1200,1390,14,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
 2021,Native Hawaiian,389,1400,1600,4,table,2021-california-sat-suite-of-assessments-annual-report.pdf,6
@@ -209,12 +257,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2022,Asian,22546,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Asian,22546,600,790,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Asian,22546,800,990,9,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,1000,1190,28,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,1200,1390,22,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,1400,1600,14,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,600,790,9,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Female,51830,800,990,27,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,1000,1190,26,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,1200,1390,10,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,1400,1600,3,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,400,590,1,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,600,790,19,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Hispanic,38909,800,990,41,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,1000,1190,25,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,1200,1390,23,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,1400,1600,19,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,400,590,0,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,600,790,11,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
+2022,Male,49752,800,990,22,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Native Hawaiian,339,1000,1190,30,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Native Hawaiian,339,1200,1390,17,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
 2022,Native Hawaiian,339,1400,1600,7,table,2022-california-sat-suite-of-assessments-annual-report.pdf,8
@@ -257,12 +317,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2023,Asian,26181,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Asian,26181,600,790,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Asian,26181,800,990,10,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,1000,1190,28,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,1200,1390,20,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,1400,1600,11,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,400,590,0,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,600,790,14,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Female,63149,800,990,27,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,1000,1190,24,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,1200,1390,9,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,1400,1600,2,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,400,590,1,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,600,790,25,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Hispanic,51675,800,990,39,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,1000,1190,25,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,1200,1390,22,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,1400,1600,15,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,400,590,1,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,600,790,15,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2023,Male,58912,800,990,22,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Native Hawaiian,419,1000,1190,26,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Native Hawaiian,419,1200,1390,12,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2023,Native Hawaiian,419,1400,1600,4,table,2023-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
@@ -305,12 +377,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2024,Asian,25898,400,590,0,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Asian,25898,600,790,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Asian,25898,800,990,9,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,1000,1190,27,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,1200,1390,21,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,1400,1600,11,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,400,590,0,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,600,790,14,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Female,61242,800,990,26,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,1000,1190,24,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,1200,1390,10,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,1400,1600,2,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,400,590,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,600,790,26,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Hispanic,49637,800,990,37,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,1000,1190,24,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,1200,1390,23,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,1400,1600,17,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,400,590,1,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,600,790,15,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
+2024,Male,58050,800,990,21,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Native Hawaiian,349,1000,1190,27,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Native Hawaiian,349,1200,1390,16,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
 2024,Native Hawaiian,349,1400,1600,7,table,2024-california-sat-suite-of-assessments-annual-report-ADA.pdf,8
@@ -353,12 +437,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2025,Asian,27106,400,590,0,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Asian,27106,600,790,1,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Asian,27106,800,990,8,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,1000,1190,28,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,1200,1390,22,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,1400,1600,11,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,400,590,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,600,790,12,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Female,62215,800,990,26,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,1000,1190,25,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,1200,1390,11,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,1400,1600,2,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,400,590,4,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,600,790,21,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Hispanic,51899,800,990,37,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,1000,1190,24,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,1200,1390,24,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,1400,1600,17,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,400,590,3,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,600,790,11,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
+2025,Male,60133,800,990,20,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Native Hawaiian,339,1000,1190,27,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Native Hawaiian,339,1200,1390,17,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
 2025,Native Hawaiian,339,1400,1600,3,table,2025-california-sat-suite-of-assessments-annual-report ADA-v0.2.pdf,8
@@ -401,12 +497,24 @@ graduating_class,group,n_test_takers,band_from,band_to,pct_of_group_in_band,read
 2026,Asian,30127,400,590,0,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Asian,30127,600,790,1,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Asian,30127,800,990,8,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,1000,1190,29,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,1200,1390,23,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,1400,1600,11,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,400,590,1,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,600,790,10,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Female,70906,800,990,26,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,1000,1190,27,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,1200,1390,12,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,1400,1600,3,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,400,590,3,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,600,790,18,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Hispanic,56374,800,990,37,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,1000,1190,26,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,1200,1390,26,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,1400,1600,17,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,400,590,2,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,600,790,10,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
+2026,Male,66628,800,990,20,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Native Hawaiian,368,1000,1190,28,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Native Hawaiian,368,1200,1390,18,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
 2026,Native Hawaiian,368,1400,1600,4,chart,2026-california-sat-suite-of-assessments-annual-report-ada.pdf,6
